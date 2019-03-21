@@ -1,0 +1,131 @@
+@media screen  and (max-width: 479px) {
+    *{
+        margin: 0 auto;
+        padding: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #head{
+        background-size: cover;
+        height: 300px;
+    }
+    .layer{
+        height: 100%;
+    }
+    .layer h1{
+        padding-top: 35%;
+        font-size: 25px;
+    }
+    #container{
+        height: 2320px;
+    }
+    #container h1 {
+    padding-top: 25px;
+    font-size: 26px;
+}
+.content{
+    width: 100%;
+    height: 2185px;
+    display: inherit;
+    top: 0px;
+}
+.content1, .content2, .content3 {
+    width: 100%;
+    height: 750px;
+    border: none;
+    padding: 0px 35px;
+}
+.content1{
+    padding-top: 20px;
+}
+.para1 p {
+    padding: 20px 0px;
+    text-align: justify;
+    font-size: 22px;
+}
+.content2{
+    margin-top: 30px;
+}
+.content2 h4 {
+    font-size: 25px;
+}
+.content2 p, hr, h4, li {
+    margin-top: 10px;
+    text-align: center;
+}
+.content2 p {
+    font-size: 16px;
+}
+.content2 li {
+    font-size: 16px;
+    padding-top: 8px;
+    padding-left: 5px;
+    text-align: left;
+}
+.content3 {
+    margin-top: 30px;
+    height: 600px;
+}
+.caption {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+}
+.content3 h3 {
+    font-size: 35px;
+    padding-top: 6px;
+    text-align: center;
+    padding-left: 0px;
+}
+.main-form {
+    width: 100%;
+    height: 550px;
+}
+.form{
+    height: 100%;
+    width: 100%;
+}
+.content3 input{
+    width: 100%;
+    height: 40px;
+}
+textarea{
+    width: 100%;
+}
+footer{
+    height: 708px;
+}
+.footer-content {
+    height: 650px;
+    top: 0px;
+    width: 100%;
+    display: inherit;
+}
+.contact {   
+    height: 200px; 
+    padding-top: 20px;   
+}
+.tel{
+    top: 0px;
+    height: auto;
+}
+.fas{
+    font-size: 80px;
+}
+.info {
+    line-height: 26px;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 0px;
+    top: 0px;
+}
+.inf{
+    height: 280px;
+}
+.copy{
+    position: inherit;
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+}
