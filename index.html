@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/lgstyle.css">
   <link rel="stylesheet" href="css/mobile.css">
@@ -20,16 +21,17 @@
 
   <header id="head">
      <div class="layer">
-      <!-- <div class="navigation">
-          <nav class="navbar">
-            <ul class="nav-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Packages</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">About Us</a></li>
-            </ul>
-          </nav>
-        </div> -->
+       <nav>
+         <div class="nav-wrapper">
+           <a href="#" class="brand-logo">WEB</a>
+           <ul class="right hide-on-med-and-down">
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Packages</a></li>
+             <li><a href="#">Services</a></li>
+             <li><a href="#">About Us</a></li>
+           </ul>
+         </div>
+       </nav>
      <h1>Three Friends Travel</h1>
     </div>
   </header>
@@ -151,6 +153,24 @@
       </div>
     </footer>
   </main> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script>
+        $(document).ready(function(){
+
+          $(window).scroll(function(){
+
+            if($(window).scrollTop()>300){
+              $('nav').addClass('red');
+            } else{
+              $('nav').removeClass('red');
+            }
+
+          });
+
+        });
+      </script>
 </body>
 
 </html>
