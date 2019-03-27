@@ -39,10 +39,7 @@ nav{
   z-index: 100;
   box-shadow: 0 0px 0px 0;
 }
-.red{
-  background: rgba(0, 0, 0, 0.3) !important;
 
-}
 nav li{
   margin-top: 0px;
 }
@@ -126,6 +123,9 @@ margin: 0px;
 .content2 p, hr, h4, li{
   margin-top: 4px;
   text-align: left;  
+}
+hr{
+  margin-bottom: 0;
 }
 .content2 h4{
   font-size:18px;
@@ -277,4 +277,40 @@ background: rgba(0, 0, 0, 0.3);
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
   font-family: 'Roboto', sans-serif;
+}
+
+.copy small a{
+  display: inline;
+  
+  color: white;
+  
+}
+.navbar-nav li {
+  padding: 0 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.navbar-nav a{
+  color: white;
+  margin: 0;
+}
+.navbar h1{
+  display: inline;
+  padding: 0;
+}
+.navbar-brand{
+  padding: 0 40px;
+  color: white;
+  margin: 0;
+  display: inherit;
+}
+.bg-dark{
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: white;
+}
+.red{
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+ .nav-link{
+  color: white !important;
 }
