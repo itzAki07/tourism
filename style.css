@@ -167,7 +167,7 @@ p.para {
 	margin: auto;
 }
 .form input {
-	width: 240px;
+	width: 100%;
 	height: 30px;
 	border-radius: 5px;
 	box-shadow: none;
@@ -183,7 +183,7 @@ p.para {
 }
 textarea {
 	margin-top: 10%;
-	width: 240px;
+	width: 100%;
 	height: 180px;
 	border-radius: 5px;
 	padding: 10px;
