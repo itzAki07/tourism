@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+.offset::before {
+	display: block;
+	content: "";
+	height: 3.5rem;
+	margin-top: -3.5rem;
+}
+
+/* ===Navigation=== */
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+	background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.navbar-brand img {
+	height: 3rem;
+}
+.navbar-nav li {
+	padding-right: 0.7rem;
+}
+.navbar-dark .navbar-nav .navbar-link {
+	color: black;
+	padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #fff59d;
+}
+
+/* === End of Navigation=== */
+
+/* ===Start of Landing Page */
+.landing {
+	background-image: url(img/header-back.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.home-wrap {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 45%;
+	z-index: 1;
+	color: white;
+	text-transform: uppercase;
+}
+
+.caption h1 {
+	font-size: 3.8rem;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.8rem;
+	text-shadow: 0.1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+}
+
+/* ===Search Bar=== */
+.container {
+	margin-top: 2.5rem;
+}
+.searchbox,
+.box {
+	margin: 0 auto !important;
+	width: 80% !important;
+	padding: 2px;
+}
+.search {
+	display: block;
+	width: 95%;
+	padding: .55rem .45rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: none;
+	border-right: 1px solid #6f7174;
+	border-radius: none;
+}
+.search::placeholder {
+	text-align: center;
+}
+button.btn {
+	width: 95%;
+	border-radius: 0;
+	padding: .55rem .45rem;
+}
+/* ===End Search Bar=== */
+/* ===Start packages=== */
+h1.text-center {
+	padding-top: 4rem;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.2rem;
+}
+.narrow {
+	width: 60%;
+	margin: 1.5rem auto !important;
+	padding: 3rem;
+}
+.col-md-4 {
+	display: flex;
+}
+.image {
+	border: 1px solid #969090;
+	border-radius: 5px;
+	flex-direction: column;
+}
+.image img {
+	max-width: 100%;
+}
+p.para {
+	text-align: justify;
+	font-size: 1.1rem;
+	padding: 1rem;
+}
+.details {
+	text-align: left !important;
+	padding: 0 1rem;
+	margin: 1rem 0;
+}
+.details h4 {
+	font-size: 1rem !important;
+	margin: 0 !important;
+	padding-bottom: 0.5rem;
+}
+.details p {
+	font-size: 0.8rem !important;
+	margin: 0 !important;
+}
+.details hr {
+	margin: 0;
+	padding-bottom: 0.5rem;
+}
+.details ul {
+	padding-left: 1rem;
+	font-size: 0.9rem;
+}
+.enquiry {
+	margin: auto;
+	padding-top: 1rem;
+}
+.main-form {
+	width: 90%;
+	height: 70%;
+	margin: auto;
+	padding-top: 1rem;
+}
+.form {
+	width: 90%;
+	height: 90%;
+	margin: auto;
+}
+.form input {
+	width: 240px;
+	height: 30px;
+	border-radius: 5px;
+	box-shadow: none;
+	outline: none;
+	padding: 5px 10px;
+	font-size: 1em;
+	border-style: none;
+	border: 1px solid #546e7a;
+}
+.input-tel,
+.input-name {
+	margin-top: 10%;
+}
+textarea {
+	margin-top: 10%;
+	width: 240px;
+	height: 180px;
+	border-radius: 5px;
+	padding: 10px;
+	border-style: none;
+	border: 1px solid #546e7a;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+.btns {
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	padding: 10px 15px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+/* ===End Packages=== */
+/* ===Start Contact=== */
+.footer {
+	background-color: #eeeeee !important;
+	padding: 4rem 0;
+	position: relative;
+}
+footer.narrow {
+	padding: 1rem;
+}
+.narrow1 {
+	width: 60%;
+	margin: 1.5rem auto !important;
+	padding: 1rem;
+}
+.rounded {
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-bottom: 0;
+}
+.contact {
+	color: white;
+	display: inline-block;
+}
+.contact svg {
+	padding: 0.5rem 0;
+}
+.copy {
+	background: rgb(0, 0, 0, 0.5);
+	color: white;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+/* ===End Contact=== */
+@media screen and (max-width: 768px) {
+	.landing {
+		height: 50vh;
+	}
+	.caption {
+		top: 20%;
+	}
+	.caption h1 {
+		letter-spacing: 0.1rem;
+		font-size: 1.5rem;
+		padding: 0;
+	}
+	.search {
+		padding: 0 .4rem;
+	}
+	.container {
+		margin: 0;
+	}
+	button.btn {
+		padding: 0;
+	}
+	h1.text-center {
+		font-size: 1.8rem;
+		padding-top: 2rem;
+		margin: 0;
+	}
+	.narrow {
+		padding: 0;
+		padding-bottom: 3rem;
+		margin: 0 auto !important;
+		width: 80%;
+	}
+	.enquiry {
+		padding-top: .5rem;
+	}
+	.enquiry h3 {
+		font-size: 1.45rem;
+	}
+	.form input {
+		width: 100%;
+		height: 28px;
+		font-size: 0.8rem;
+	}
+	.form textarea {
+		width: 100%;
+		height: 130px;
+		font-size: 0.8rem;
+	}
+	.btns {
+		padding: 8px 10px;
+		margin: 14px;
+		font-size: 10px auto 14px;
+	}
+	.footer {
+		padding: 0;
+		padding-top: 2rem;
+	}
+	.narrow1 {
+		width: 70%;
+		margin: 0 auto !important;
+		padding-bottom: 3rem;
+	}
+	.copy {
+		background: rgb(0, 0, 0, 0.5);
+		font-size: 0.6rem;
+		padding: 0 1rem;
+		color: white;
+	}
+}
