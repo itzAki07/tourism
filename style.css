@@ -109,9 +109,9 @@ h1.text-center {
 	letter-spacing: 0.2rem;
 }
 .narrow {
-	width: 60%;
+	width: 70%;
 	margin: 1.5rem auto !important;
-	padding: 3rem;
+	padding-bottom: 3rem;
 }
 .col-md-4 {
 	display: flex;
@@ -223,13 +223,13 @@ footer.narrow {
 	padding: 1rem;
 }
 .narrow1 {
-	width: 60%;
+	width: 70%;
 	margin: 1.5rem auto !important;
-	padding: 1rem;
+	padding: 1.5rem;
 }
 .rounded {
 	background-color: rgba(0, 0, 0, 0.6);
-	margin-bottom: 0;
+	margin-bottom: 0 !important;
 }
 .contact {
 	color: white;
@@ -309,6 +309,9 @@ footer.narrow {
 		width: 70%;
 		margin: 0 auto !important;
 		padding-bottom: 0.8rem;
+	}
+	.contact p {
+		font-size: 0.7rem;
 	}
 	.copy {
 		background: rgb(0, 0, 0, 0.5);
