@@ -251,7 +251,7 @@ footer.narrow {
 		height: 50vh;
 	}
 	.caption {
-		top: 20%;
+		top: 22%;
 	}
 	.caption h1 {
 		letter-spacing: 0.1rem;
@@ -260,12 +260,14 @@ footer.narrow {
 	}
 	.search {
 		padding: 0 .4rem;
+		margin: 0 auto 0.5rem !important;
 	}
 	.container {
 		margin: 0;
 	}
 	button.btn {
 		padding: 0;
+		margin-left: 0.37rem;
 	}
 	h1.text-center {
 		font-size: 1.8rem;
