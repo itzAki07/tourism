@@ -72,6 +72,16 @@ body {
 .container {
 	margin-top: 2.5rem;
 }
+.selectbox {
+	padding: 0.2rem;
+}
+select.contain {
+	margin: 0 !important;
+	width: 94% !important;
+	height: 100%;
+	border-radius: 0;
+	border: 0;
+}
 .searchbox,
 .box {
 	margin: 0 auto !important;
@@ -215,10 +225,16 @@ textarea {
 /* ===End Packages=== */
 /* ===Start Contact=== */
 .footer {
+	background-image: url(img/footer-background.jpg);
 	background-color: #eeeeee !important;
-	padding: 4rem 0;
+	padding: 0rem;
 	position: relative;
 }
+.footer-wrap {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 4rem;
+}
+
 footer.narrow {
 	padding: 1rem;
 }
@@ -265,9 +281,16 @@ footer.narrow {
 	.container {
 		margin: 0;
 	}
+	.selectbox {
+		width: 80%;
+		padding: 0;
+		margin: 0 auto 10px;
+	}
+	.contain select:hover {
+		background-color: red;
+	}
 	button.btn {
 		padding: 0;
-		margin-left: 0.37rem;
 	}
 	h1.text-center {
 		font-size: 1.8rem;
@@ -303,12 +326,11 @@ footer.narrow {
 	}
 	.footer {
 		padding: 0;
-		padding-top: 2rem;
 	}
 	.narrow1 {
-		width: 70%;
+		width: 100%;
 		margin: 0 auto !important;
-		padding-bottom: 3.5rem;
+		padding: 0;
 	}
 	.contact p {
 		font-size: 0.7rem;
@@ -319,4 +341,11 @@ footer.narrow {
 		padding: 0 1rem;
 		color: white;
 	}
+	/* select.hide {
+		display: none !important;
+		visibility: hidden !important;
+	} */
+	/* .show {
+		display: block;
+	} */
 }

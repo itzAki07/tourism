@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,6 +13,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
@@ -50,13 +51,30 @@
             <div class="container">
                 <form action="">
                     <div class="row searchbox">
+                        <div class="col-md-4 mx-auto selectbox  ">
+                            <select class="form-control  box contain" id="sel1">
+                                <option selected value="IP">International Package</option>
+                                <option value="DP">Domestic Package</option>
+                                <option value="AP">Adventure Package</option>
+                                <option value="WG">Weekend Getaway</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 selectbox">
+                            <select class="form-control  box contain" id="InternationalPackages">
 
-                        <div class="col-md-4 box contain">
-                            <input class="search" type="text" placeholder="Select Location">
+                                <option value="SG">Singapore</option>
+                                <option value="ML">Malaysia</option>
+                                <option value="BT">Bhutan</option>
+                                <option value="SL">Sri Lanka</option>
+                            </select>
+                            <select class="form-control box contain" style="display:none;" id="DomesticPackages">
+                                <option value="CG">Coorg</option>
+                                <option value="KL">Kerala</option>
+                                <option value="LEH">Laddak</option>
+                                <option value="OT">Ooty</option>
+                            </select>
                         </div>
-                        <div class="col-md-4 box contain">
-                            <input class="search" type="text" placeholder="Select Place">
-                        </div>
+
                         <div class="col-md-4 box contain">
                             <button class="btn btn-danger">Show Packages</button>
                         </div>
@@ -157,21 +175,24 @@
     <div id="contact" class="offset">
         <footer>
             <div class="container-fluid footer">
-                <div class="narrow1">
-                    <div class="row col-12 shadow-lg p-3 mb-5 bg-#212121 rounded">
-                        <div class="contact col-md-4 text-center">
-                            <i class="fas fa-tty fa-4x"></i>
-                            <p>Give Us A Call <br> Mobile: +91 9243490662</p>
-                        </div>
-                        <div class="contact col-md-4 text-center">
-                            <i class="fas fa-map-marked fa-4x"></i>
-                            <p>Visit Us @ <br>10/A, 2nd Floor, 18th Main, <br> 16th Cross, Padmanabha Nagar, <br> Bengaluru 560078 </p>
-                        </div>
-                        <div class="contact col-md-4 text-center">
-                            <i class="fas fa-envelope fa-4x"></i>
-                            <p>Send Us An E-Mail <br> bookings@threefriendstravels.com</p>
-                        </div>
+                <div class="footer-wrap">
+                    <div class="narrow1">
+                        <div class="row col-12 shadow-lg p-3 mb-5 bg-#212121 rounded">
+                            <div class="contact col-md-4 text-center">
+                                <i class="fas fa-tty fa-4x"></i>
+                                <p>Give Us A Call <br> Mobile: +91 9243490662</p>
+                            </div>
+                            <div class="contact col-md-4 text-center">
+                                <i class="fas fa-map-marked fa-4x"></i>
+                                <p>Visit Us @ <br>10/A, 2nd Floor, 18th Main, <br> 16th Cross, Padmanabha Nagar, <br>
+                                    Bengaluru 560078 </p>
+                            </div>
+                            <div class="contact col-md-4 text-center">
+                                <i class="fas fa-envelope fa-4x"></i>
+                                <p>Send Us An E-Mail <br> bookings@threefriendstravels.com</p>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
                 <div class="copy text-center">
@@ -180,7 +201,6 @@
                     </small>
                 </div>
             </div>
-            
         </footer>
 
     </div>
@@ -200,6 +220,49 @@
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
         integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
         crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    <script>
+         
+        // $(document).ready(function () {
+
+
+        //         $("#sel1").on("change", function () {
+        //             var optSelctd = this.value;
+        //             switch (optSelctd) {
+        //                 case "IP":
+        //                     {
+
+        //                         $("#DomesticPackages").hide();
+        //                         $("#InternationalPackages").show();
+        //                         $("#ddPackSection").show();
+        //                         $("#ddShowPackSection").show();
+        //                     } break;
+        //                 case "DP": 
+        //                 { 
+        //                     $("#InternationalPackages").hide(); 
+        //                     $("#DomesticPackages").show(); 
+        //                     $("#ddPackSection").show(); 
+        //                     $("#ddShowPackSection").show(); 
+        //                 } break;
+
+        //                 /*case "AP":{alert(">AP");}break;*/
+        //                 default: { } break;
+        //             }
+        //         });
+
+        //         $("#btnPackages").click(function () {
+        //             var pt = $("#PackageSelectionBox").val();
+        //             switch (pt) {
+        //                 case "DP": { pt = $("#DomesticPackages").val(); } break;
+        //                 case "IP":
+        //                 default: { pt = $("#InternationalPackages").val(); } break;
+        //             }
+        //             window.location.href = "packages.html?pkg=" + pt;
+        //         });
+        //     });
+
+
+    </script>
 </body>
 
 </html>
